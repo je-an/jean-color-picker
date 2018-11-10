@@ -1,0 +1,29 @@
+{
+  "name": "jean-color-picker",
+  "version": "1.0.0",
+  "description": "Provides color picking functionality",
+  "main": "dist/jean-color-picker.js",
+  "scripts": {
+    "test": "open spec/spec-runner.html in browser"
+  },
+  "keywords": [],
+  "author": "Jeremias Andris",
+  "license": "MIT",
+  "dependencies": {
+    "jean-amd": "1.0.3",
+    "jean-dom-element": "^1.2.2",
+    "jean-dom-util": "^1.2.3",
+    "jean-failure": "^1.0.1",
+    "jean-inheritance": "^1.0.4",
+    "jean-merge": "^1.0.0",
+    "jean-type-check": "^1.5.1"
+  },
+  "devDependencies": {
+    "require-css": "^0.1.10",
+    "text": "github:requirejs/text"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/je-an/jean-color-picker.git"
+  }
+}

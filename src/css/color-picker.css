@@ -1,0 +1,26 @@
+.jean-color-picker {
+  width: 10%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.jean-color-picker label {
+  margin-bottom: 0;
+}
+.jean-color-picker .color-picker-header {
+  border-bottom: 1px solid #ddd;
+}
+.jean-color-picker .color-picker-header .color-value {
+  min-height: 25px;
+}
+.jean-color-picker .color-picker-body {
+  padding: 5px;
+}
+.jean-color-picker .color-picker-body .r {
+  color: red;
+}
+.jean-color-picker .color-picker-body .g {
+  color: green;
+}
+.jean-color-picker .color-picker-body .b {
+  color: blue;
+}
