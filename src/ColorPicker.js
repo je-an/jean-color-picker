@@ -27,7 +27,7 @@ define([ // jscs:ignore
          * @param {Number} [options.color.b=128] - b value - range from 0 to 255
          */
         var ColorPicker = function (options) {
-            options = TypeCheck.isDefined(options) ? options : { color: {} };
+            options = TypeCheck.isDefined(options) ? options : { color: { r: 128, g: 128, b: 128 } };
             var color = TypeCheck.isDefined(options.color) ? options.color : {};
             Inheritance.inheritConstructor(DomElement, this, Merge({ // jscs:ignore
                 html: controlHtml,

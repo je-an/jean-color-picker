@@ -1,6 +1,6 @@
 {
   "name": "jean-color-picker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides color picking functionality",
   "main": "dist/jean-color-picker.js",
   "scripts": {
